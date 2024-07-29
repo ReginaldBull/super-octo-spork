@@ -1,0 +1,68 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net8.0": []
+  },
+  "packageFolders": {
+    "/home/georg/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/georg/Documents/Projects/CSharp/super-octo-spork/src/Math.Core/Math.Core.csproj",
+      "projectName": "Math.Core",
+      "projectPath": "/home/georg/Documents/Projects/CSharp/super-octo-spork/src/Math.Core/Math.Core.csproj",
+      "packagesPath": "/home/georg/.nuget/packages/",
+      "outputPath": "/home/georg/Documents/Projects/CSharp/super-octo-spork/src/Math.Core/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/georg/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "/home/georg/Documents/Projects/CSharp/tds-unity-lp-nug-monorepo/src/nupkg": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://gitlab.com/api/v4/groups/12426872/-/packages/nuget/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.107/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
