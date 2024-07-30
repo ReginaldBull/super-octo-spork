@@ -16,7 +16,7 @@
     public class BenchmarkArray
     {
         [Benchmark]
-        public string Run()
+        public static string Run()
         {
             string value = string.Empty;
 
@@ -29,7 +29,7 @@
         }
 
         [Benchmark]
-        public string RunStringBuilder()
+        public static string RunStringBuilder()
         {
             var value = new StringBuilder();
 
